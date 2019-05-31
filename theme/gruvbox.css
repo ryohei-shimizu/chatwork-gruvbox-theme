@@ -407,6 +407,22 @@ svg {
     border-color: var(--border);
 }
 
+.chatInfoTaskArea {
+    background-color: var(--background);
+}
+
+.chatInfoTaskMetaArea {
+    background-color: var(--background-second);
+}
+
+.taskDateLimit__dueDate--limitOver {
+    color: var(--faded_red);
+}
+
+.taskDateLimit__dueTime {
+    color: var(--faded_red);
+}
+
 .quoteText {
     color: var(--foreground);
 }
@@ -612,6 +628,7 @@ svg {
 
 .taskComplete .chatInfoTaskMetaArea {
     border-color: var(--border);
+    color: var(--foreground-second);
 }
 
 .showMoreComplete {
