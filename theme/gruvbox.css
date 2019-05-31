@@ -1,0 +1,945 @@
+:root {
+    --red: #cc241d;
+    --light-red: #fb4934;
+    --green: #98971a;
+    --light-green: #b8bb26;
+    --yellow: #d79921;
+    --light-yellow: #fabd2f;
+    --blue: #458588;
+    --light-blue: #83a598;
+    --purple: #b16286;
+    --light-purple: #d3869b;
+    --aqua: #689d6a;
+    --light-aqua: #8ec07c;
+    --gray: #928374;
+
+    --orange: #d65d0e;
+    --light-orange: #fe8019;
+
+    --background: #32302f;
+    --background-second: #3c3836;
+    --foreground: #ebdbb2;
+    --foreground-second: #bdae93;
+    --link: var(--blue);
+    --border: #7c6f64;
+}
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, menu, nav, section, summary, time, mark, audio, video {
+    border-color: var(--border);
+}
+body, pre, input, select, textarea, button {
+    color: var(--foreground);
+    /* background-color: var(--background); */
+}
+
+tbody {
+    background-color: var(--background);
+}
+
+input[type=text] {
+    background-color: var(--background-second);
+    color: var(--foreground);
+    border-color: var(--border);
+}
+
+html {
+    scrollbar-color: var(--background-second) #504945;
+}
+
+a {
+    color: var(--link);
+}
+
+svg {
+    fill: var(--foreground);
+}
+
+.header {
+    background-color: var(--background);
+}
+
+.globalHeaderSearch .search {
+    background-color: var(--background-second);
+    border: var(--border);
+}
+
+/* Global Header → Search → Search Icon */
+.sc-hqyNC {
+    background-color: var(--border);
+    border-color: #665c54;
+}
+
+.globalHeaderSearch .search input[type="text"] {
+    background-color: var(--background-second);
+}
+
+.globalHeaderSearch .search input[type="text"] {
+    color: var(--foreground);
+}
+
+.inputLong::placeholder {
+    color: var(--foreground-second);
+}
+
+.globalHeaderPlatform__icon {
+    fill: var(--foreground);
+}
+
+.searchResult {
+    border-color: var(--border);
+}
+
+.searchResult__chatList > li {
+    background-color: var(--background-second);
+}
+
+.searchResult__chatList > li + li {
+    border-color: var(--border);
+}
+
+.searchResult__chatList > li:hover {
+    background-color: var(--background);
+}
+
+.roomListItem__roomName {
+    color: var(--foreground);
+}
+
+.searchResult__footer {
+    background-color: var(--background);
+    border-color: var(--border);
+}
+
+.globalHeaderMyAccount {
+    background-color: var(--background-second);
+    border: var(--border);
+}
+
+.globalHeaderMyAccount:hover {
+    background-color: var(--background);
+}
+
+.globalHeaderMyAccount__name {
+    color: var(--foreground);
+}
+
+.globalHeaderMyAccount__name:hover {
+    color: var(--foreground-second);
+}
+
+.globalHeaderMyAccount__openMenuIcon {
+    fill: var(--foreground);
+}
+
+.globalHeaderMyAccount.myStatusButtonSelected {
+    background-color: var(--background-second);
+}
+
+.myAccountMenu {
+    background-color: var(--background-second);
+}
+
+.myAccountMenu__anchor {
+    color: var(--foreground);
+}
+
+.myAccountMenu__separate--top {
+    border-color: var(--border);
+}
+
+.roomListHeader {
+    background-color: var(--background);
+    border-color: var(--border);
+}
+
+.sc-jKJlTe {
+    color: var(--foreground);
+}
+
+/* サイドバー → チャットルーム */
+.sc-gipzik {
+    background-color: var(--background);
+}
+
+.sc-gipzik:hover {
+    background-color: #665c54;
+}
+
+.ewOSjQ {
+    color: var(--foreground);
+}
+
+._unreadBadge {
+    background-color: #665c54;
+}
+
+/* サイドバー → ヘッダ → All Chats → ハイライト */
+.sc-jKJlTe:hover {
+    background-color: var(--background-second);
+}
+
+.roomListHeader__myChatIcon {
+    fill: var(--foreground);
+}
+
+.uiDropDown__labelIcon {
+    fill: var(--foreground);
+}
+
+.roomListHeader__roomFilterListContainer:hover {
+    background-color: var(--background-second);
+}
+
+/* サイドバー → チャットルーム → 未読バッヂ */
+.sc-caSCKo {
+    color: var(--foreground);
+}
+
+/* サイドバー → チャットルーム → ハイライトテキスト */
+.kLKEBy {
+    color: var(--foreground);
+}
+
+/* サイドバー → チャットルーム → 選択セル */
+.gqDYxs {
+    border-color: var(--border);
+}
+
+/* サイドバー → チャットルーム → 現在のセル */
+.dzNwQI {
+    background-color: var(--background-second);
+}
+
+/* サイドバー → フッタ */
+.sc-hmzhuo {
+    /* box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 15px inset; */
+    background-color: var(--background);
+}
+
+/* サイドバー → フッタ → Show More */
+.sc-hSdWYo {
+    background-color: var(--gray);
+    border-color: var(--background-second);
+}
+
+/* サイドバー → フッタ → Show More → テキスト */
+.sc-kkGfuU {
+    color: var(--foreground);
+}
+
+.chatRoomHeader {
+    background-color: var(--background);
+    border-color: var(--border);
+}
+
+.chatRoomHeader__fileListButtonIcon {
+    fill: var(--foreground);
+}
+
+.chatRoomHeader__settingButtonIcon {
+    fill: var(--foreground);
+}
+
+.chatRoomHeaderMemberList__detail {
+    background-color: #504945;
+}
+
+.chatRoomHeaderMemberList__detail:hover {
+    background-color: var(--border);
+}
+
+.chatRoomHeaderMemberList__detailLabel {
+    color: var(--foreground);
+}
+
+.roomContent {
+    background-color: var(--background);
+    border-color: var(--border);
+}
+
+.timeLine {
+    box-shadow: var(--border) -1px -1px 0px 1px inset, var(--border) 1px 1px 0px 1px inset; 
+    border: none;
+}
+
+.timelineMessage {
+    border-color: #504945;
+    background-color: var(--background);
+}
+
+.timelineMessage__userName {
+    color: var(--link);
+}
+
+.timelineMessage__orgName {
+    color: var(--foreground-second);
+}
+
+.timelineMessage__timeStamp {
+    color: var(--foreground-second);
+}
+
+.timelineMessage--mention {
+    background-color: var(--light-aqua);
+    color: var(--background-second);
+}
+
+.timelineMessage__avatar .avatarMedium {
+    background-color: var(--background);
+}
+
+.timelineMessage.chatTimeLineMessageHover {
+    background-color: var(--background);
+    border-color: var(--border);
+}
+
+.timelineMessage--mention.chatTimeLineMessageHover {
+    background-color: var(--aqua);
+}
+
+.timelineMessage--mention .timelineMessage__message {
+    color: var(--foreground);
+}
+
+.timelineMessage--editing {
+    background-color: var(--light-blue);
+}
+
+.timelineMessage__editLabel {
+    background-color: var(--blue);
+    color: var(--foreground);
+}
+
+.timelineMessage__editLabelIcon {
+    fill: var(--foreground);
+}
+
+.timelineMessage__systemMessage {
+    background-color: var(--background-second);
+}
+
+.timelineMessage .actionNav {
+    background-color: var(--background);
+    border-color: var(--border);
+}
+
+.timelineMessage--mention .actionNav {
+    background-color: var(--orange);
+    border-color: var(--border);
+}
+
+.actionNav__itemIcon {
+    fill: var(--foreground);
+}
+
+.messageBadge .chatTimeLineReply {
+    background-color: var(--orange);
+}
+
+.messageBadge .chatTimeLineReply__icon {
+    fill: #fbf1c7;
+}
+
+.messageBadge .chatTimeLineTo {
+    background-color: var(--orange);
+}
+
+.messageBadge__toAllBadge {
+    background-color: var(--orange);
+}
+
+.linkStatus {
+    color: var(--foreground);
+}
+
+.chatInfo {
+    background-color: var(--background);
+    border-color: var(--border);
+}
+
+.chatInfo > .title {
+    background-color: var(--background-second);
+    border-color: var(--border);
+}
+
+.quoteText {
+    color: var(--foreground);
+}
+
+.quoteText > .chatInfo > .title {
+    color: var(--foreground);
+}
+
+.chatQuote__quoteIcon {
+    fill: var(--foreground);
+}
+
+.chatQuote__title {
+    color: var(--foreground-second);
+}
+
+.chatQuote__timeStamp {
+    color: var(--foreground);
+}
+
+.icoFontInfo {
+    color: var(--foreground);
+}
+.timelineLinkAppend {
+    background-color: var(--light-aqua);
+    color: var(--link);
+}
+
+.timeLine__unreadLineBorder {
+    background-color: var(--red);
+}
+
+.timeLine__unreadLineBody {
+    background-color: var(--background);
+}
+
+.timeLine__unreadLineText {
+    color: var(--red);
+}
+
+.timeLine__dateHead {
+    border-color: var(--border);
+}
+
+.timeLine__dateHeadBody {
+    background-color: var(--background);
+}
+
+.timeLine__dateHeadText {
+    color: #d5c4a1;
+}
+
+.chatInput {
+    border-color: var(--border);
+}
+
+.chatInput__submit {
+    background-color: var(--blue);
+    color: var(--foreground);
+}
+
+.chatInput__submit:hover {
+    background-color: var(--light-blue);
+    color: var(--border);
+    border-color: var(--border);
+}
+
+.chatCode {
+    background-color: var(--background-second);
+    border-color: var(--border);
+    color: var(--foreground-second);
+}
+
+.floatWindow__header {
+    background-color: var(--background-second);
+    border-color: var(--border);
+}
+
+.floatWindow__closeButtonIcon {
+    fill: var(--foreground);
+}
+
+.messageSearchContent {
+    background-color: var(--background-second);
+    border-color: var(--border);
+}
+
+.messageSearchContent__speakerOptionButton {
+    fill: var(--foreground);
+    background-color: var(--background);
+    border-color: var(--border);
+}
+
+.messageSearchContent__calendarIcon {
+    fill: var(--foreground);
+}
+
+.selectboxDefault {
+    background-color: var(--background);
+    border-color: var(--border);
+}
+
+.selectboxContent {
+    background-color: var(--background-second);
+    border-color: var(--border);
+}
+
+.selectboxContent .selectboxSelected {
+    background-color: var(--blue);
+}
+
+.selectboxContent .selectboxSelected:hover {
+    background-color: var(--blue);
+}
+
+.selectboxContent li:hover {
+    background-color: var(--background);
+}
+
+.controlGroup .controlLabel {
+    color: var(--foreground);
+}
+
+.contactPanel__footer {
+    background-color: var(--background);
+}
+
+.contactPanel__joinLive {
+    background-color: var(--background);
+    border-color: var(--border);
+}
+
+.contactPanel__joinLiveIcon {
+    fill: var(--foreground);
+}
+
+.contactPanel__coverImageContainer {
+    background-color: var(--background-second);
+    border-color: var(--border);
+}
+
+._moveButton {
+    background-color: var(--background-second);
+    color: var(--foreground);
+    border-color: var(--border);
+}
+
+._moveButton:hover {
+    background-color: var(--background);
+    color: var(--foreground);
+    border-color: var(--border);
+}
+
+.searchResultBox {
+    border-color: var(--border);
+}
+
+.searchResultListBox {
+    border-color: var(--border);
+}
+
+._cwBBButton {
+    background-color: var(--background-second);
+    color: var(--foreground);
+    border-color: var(--border)
+}
+
+._cwBBButton:hover {
+    background-color: var(--background);
+    color: var(--foreground);
+    border-color: var(--border)
+}
+
+._cwBBSelected.selected {
+    background-color: var(--background);
+    color: var(--blue);
+    border-color: var(--border)
+}
+
+.messageSearchExpand__searchExpandButtonIcon {
+    fill: var(--foreground);
+}
+
+.taskMine {
+    background-color: var(--aqua);
+}
+
+.taskDateLimit {
+    color: var(--foreground);
+}
+
+.chatInfoTaskMetaArea {
+    border-color: var(--border);
+}
+
+.taskMine .piconname span {
+    color: var(--foreground);
+}
+
+.taskComplete {
+    background-color: var(--background);
+}
+
+.taskComplete .chatInfoTaskMetaArea {
+    border-color: var(--border);
+}
+
+.showMoreComplete {
+    background-color: var(--background);
+    border-color: var(--border);
+}
+
+.chatInfoTaskMetaBody__dueDate {
+    color: var(--foreground-second);
+}
+
+.messegeDelete {
+    border-color: var(--border);
+    color: var(--foreground-second);
+}
+
+.chatSendArea {
+    background-color: var(--background);
+}
+
+.chatSendArea__areaScaleIconLeft {
+    fill: var(--foreground);
+}
+
+._showDescription:hover {
+    background-color: var(--background-second);
+}
+
+.chatInput__tools {
+    background-color: var(--background);
+    border-color: var(--border);
+}
+
+.chatInput__icon {
+    fill: var(--foreground);
+}
+
+.chatInput__editContainer {
+    background-color: var(--blue);
+    color: var(--foreground);
+}
+
+.chatInput__editCancelIcon {
+    fill: var(--foreground);
+}
+
+.chatInput__textarea {
+    background-color: var(--background);
+}
+
+.chatInput__textarea::placeholder {
+    color: var(--foreground-second);
+}
+
+.sideContentResizeCtrlArea {
+    border-color: var(--border);
+    background: var(--background);
+}
+
+.subContentResizeCtrlArea {
+    border-color: var(--border);
+    background: var(--background);
+}
+
+.roomInformationContent {
+    background-color: var(--background);
+}
+
+.roomDescription__header {
+    background-color: var(--background);
+}
+
+.roomDescription__headerText {
+    color: var(--foreground)
+}
+
+.roomDescription__inviteButton {
+    background-color: var(--light-aqua);
+    color: var(--blue);
+    border-color: var(--light-blue);
+}
+
+.roomDescription__inviteButton:hover {
+    background-color: var(--aqua);
+    color: var(--foreground);
+    border-color: var(--light-blue);
+}
+
+.roomDescription__inviteButtonIcon {
+    color: var(--blue);
+}
+
+.roomDescription__description:hover {
+    background-color: var(--background);
+}
+
+.roomTask__header {
+    background-color: var(--background);
+}
+
+.roomTask__headerText {
+    color: var(--foreground);
+}
+
+/* Task Area → Task Add Area */
+.sc-etwtAo {
+    background-color: var(--background-second);
+    border-color: var(--border);
+}
+
+/* Task Area → Task Add Area → Highlighted */
+.egxNow {
+    border-color: var(--border);
+    box-shadow: var(--border) -1px -1px 0px 1px inset, var(--border) 1px 1px 0px 1px inset; 
+}
+
+/* Task Area → Task Add Area → Text */
+.sc-iGPElx {
+    color: var(--link);
+}
+
+/* Task Area → My Task Switch → Text */
+.sc-kfGgVZ {
+    color: var(--foreground);
+}
+
+/* Task Area → Task List → Item */
+._taskList {
+    background-color: var(--background-second);
+    border-color: var(--border);
+    box-shadow: var(--border) -1px -1px 0px 1px inset, var(--border) 1px 1px 0px 1px inset;
+}
+
+.sc-tilXH {
+
+}
+
+/* Task Area → Task List → Item → Done Button */
+.sc-hSdWYo {
+    background-color: #504945;
+}
+
+.sc-hSdWYo:hover {
+    background-color: var(--blue);
+}
+
+/* Task Area → Task List → Item → Due Text */
+.sc-iELTvK {
+    color: var(--foreground);
+}
+
+/* Task Area → Task List → Item → Due Date */
+.sc-jwKygS {
+    color: var(--red);
+}
+
+.dialogContainer {
+    background-color: var(--background);
+    border-color: var(--border);
+}
+
+.dialogContainer__header {
+    background-color: var(--background-second);
+    border-color: var(--border);
+}
+
+.dialogContainer__closeButtonIcon {
+    fill: var(--foreground);
+}
+
+.dialogContainer__footer {
+    background-color: var(--background-second);
+    border-color: var(--border);
+}
+
+.button {
+    border-color: var(--border);
+}
+
+.buttonGray {
+    background-color: var(--background);
+    color: var(--foreground);
+}
+
+.buttonGray:hover {
+    background-color: var(--background-second);
+    color: var(--foreground-second);
+    border-color: var(--border);
+}
+
+.btnDanger {
+    background-color: var(--red);
+    color: var(--foreground);
+}
+
+.btnPrimary {
+    background-color: var(--blue);
+    color: var(--foreground);
+    border-color: var(--border);
+}
+
+.btnPrimary:hover {
+    background-color: var(--light-blue);
+    color: var(--foreground);
+    border-color: var(--border);
+}
+
+.tooltip--white {
+    background-color: var(--background-second);
+    border-color: var(--border);
+}
+
+.tooltip__optionContainer {
+    border-color: var(--border);
+}
+
+.tooltipList__item:hover {
+    background-color: var(--background);
+}
+
+.emoticonTooltip__emoticonContainer:hover {
+    background-color: var(--background);
+    border-color: var(--border);
+}
+
+.emoticonTooltip__footer {
+    background-color: var(--background);
+}
+
+.search {
+    background-color: var(--background-second);
+    border-color: var(--border);
+}
+
+.search.focus {
+    border-color: var(--blue);
+}
+
+.toSelectorTooltip__checkAll {
+    color: var(--foreground);
+}
+
+.toSelectorTooltip__toAllIconContainer {
+    background-color: var(--green);
+}
+
+.toSelectorTooltip__toAllIcon {
+    fill: var(--foreground);
+}
+
+.toSelectorTooltip__footer {
+    background-color: var(--background);
+    border-color: var(--border);
+}
+
+.groupCallMemberListBox {
+    background-color: var(--background-second);
+    border-color: var(--border);
+}
+
+.groupCallMemberListBox > p {
+    background-color: var(--background);
+    border-color: var(--border);
+}
+
+.groupCallMember:hover {
+    background-color: var(--background);
+}
+
+.quoteTooltip__toTask {
+    background-color: var(--background-second);
+    color: var(--foreground);
+    border-color: var(--border);
+}
+
+.quoteTooltip__toMessage {
+    background-color: var(--background-second);
+    color: var(--foreground);
+    border-color: var(--border);
+}
+
+.quoteTooltip__toTask:hover {
+    background-color: var(--background);
+    color: var(--foreground-second);
+    border-color: var(--border)
+}
+
+.quoteTooltip__toMessage:hover {
+    background-color: var(--background);
+    color: var(--foreground-second);
+    border-color: var(--border)
+}
+
+.moreActionTooltip__item:hover {
+    background-color: var(--background);
+}
+
+.moreActionTooltip__icon {
+    fill: var(--foreground);
+}
+
+.moreActionTooltip__itemText {
+    color: var(--foreground);
+}
+
+.datePicker__header {
+    background-color: var(--background);
+}
+
+.datePicker__calendarDate {
+    border-color: var(--border);
+}
+
+.datePicker__calendarDate:hover {
+    background-color: #504945;
+}
+
+.datePicker__calendarDate--otherMonth {
+    background-color: var(--background);
+    color: var(--foreground);
+}
+
+.datePicker__footer {
+    background-color: var(--background);
+}
+
+.datePicker__selectTodayButton {
+    background-color: var(--blue);
+    color: var(--foreground);
+    border-color: var(--border);
+}
+
+.datePicker__closeButton {
+    background-color: var(--background-second);
+    color: var(--foreground);
+    border-color: var(--border);
+}
+
+.dropDownTooltip__item:hover {
+    background-color: var(--background);
+}
+
+.dropDownTooltip__separator {
+    border-color: var(--border);
+}
+
+.scrollableTable {
+    border-color: var(--border);
+}
+
+.scrollableTable table thead {
+    background-color: var(--background-second);
+    border-color: var(--border);
+}
+
+.uploadFileDialog__fileNameLabel {
+    color: var(--foreground);
+}
+
+.uploadFileDialog__messageEditorLabel {
+    color: var(--foreground);
+}
+
+.uploadFileDialog__toolbar {
+    background-color: var(--background);
+    border-color: var(--border);
+}
+
+.uploadFileDialog__emoticonIcon {
+    fill: var(--foreground);
+}
+
+.uploadFileDialog__messageTextarea {
+    background-color: var(--background);
+    border-color: var(--border);
+}

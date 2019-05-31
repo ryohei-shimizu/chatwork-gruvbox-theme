@@ -1,0 +1,14 @@
+{
+    "name": "chatwork-gruvbox",
+    "author": "k-ymmt",
+    "description": "chatwork gruvbox theme support for web extension",
+    "version": "0.0.1",
+    "manifest_version": 2,
+    "permissions": ["storage"],
+    "content_scripts": [
+        {
+            "matches": ["https://kcw.kddi.ne.jp/*"],
+            "css": ["theme/gruvbox.css"]
+        }
+    ]
+}
