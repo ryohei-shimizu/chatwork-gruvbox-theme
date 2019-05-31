@@ -736,6 +736,148 @@ svg {
     box-shadow: var(--border) -1px -1px 0px 1px inset, var(--border) 1px 1px 0px 1px inset; 
 }
 
+/* Task Area → Task Add Area → Edit Add Task → Header */
+.sc-daURTG  {
+    border-color: var(--border);
+}
+
+/* Task Area → Task Add Area → Edit Add Task */
+.diduEH {
+    background-color: var(--background);
+}
+
+/*  Task Area → Task Add Area → Edit Add Task → Text Area */
+.sc-cooIXK {
+    background-color: var(--background-second);
+    border-color: var(--border);
+}
+
+/* Task Area → Task Add Area → Edit Add Task → To Text */
+.sc-bnXvFD {
+    color: var(--foreground);
+}
+
+/* Task Area → Task Add Area → Edit Add Task → To → Assign to Text */
+.sc-eLExRp {
+    color: var(--faded_blue);
+}
+
+/* Task Area → Task Add Area → Edit Add Task → To → Assign to → Highlight */
+.sc-bXGyLb:hover {
+    background-color: var(--background-second);
+}
+
+/* Task Area → Task Add Area → Edit Add Task → To → Assign to → Select Assignee */
+.fCGBAs {
+    background-color: var(--background-second);
+    border-color: var(--border);
+}
+
+/* Task Area → Task Add Area → Edit Add Task → To → Assign to → Select Assignee → Search by name */
+.sc-bAeIUo {
+    border-color: var(--border);
+}
+
+/* Task Area → Task Add Area → Edit Add Task → To → Assign to → Select Assignee → All Text */
+.FCLPp {
+    color: var(--foreground);
+}
+
+/* Task Area → Task Add Area → Edit Add Task → To → Assign to → Select Assignee → Assinee List */
+.sc-bMVAic {
+    border-color: var(--border);
+}
+
+/* Task Area → Task Add Area → Edit Add Task → To → Assign to → Select Assignee → Assinee List Cell */
+.sc-iuJeZd {
+    background-color: var(--background-second);
+}
+
+.sc-iuJeZd:hover {
+    background-color: var(--background);
+}
+
+/* Task Area → Task Add Area → Edit Add Task → To → Assign to → Select Assignee → Assinee List Cell → Icon */
+.sc-cLQEGU {
+    border-color: var(--border);
+}
+
+/* Task Area → Task Add Area → Edit Add Task → To → Assign to → Select Assignee → Assinee List Cell → Icon */
+.sc-hORach {
+    color: var(--foreground);
+}
+
+/* Task Area → Task Add Area → Edit Add Task → Name */
+.sc-fYiAbW {
+    color: var(--foreground);
+}
+
+/* Task Area → Task Add Area → Edit Add Task → Name → Highlight */
+.dFyOHc {
+    background-color: var(--background-second);
+}
+
+/* Task Area → Task Add Area → Edit Add Task → Name → Delete Icon */
+.sc-fOKMvo  {
+    background-color: var(--background-second);
+}
+
+/* Task Area → Task Add Area → Edit Add Task → Name → Add Button → Highlight */
+.sc-gFaPwZ:hover {
+    background-color: var(--background-second);
+}
+
+/* Task Area → Task Add Area → Edit Add Task → Due Text */
+.sc-chbbiW {
+    color: var(--foreground);
+}
+
+/* Task Area → Task Add Area → Edit Add Task → Due Date */
+.sc-cqCuEk {
+    color: var(--foreground);
+}
+
+.sc-cqCuEk:hover {
+    background-color: var(--background-second);
+}
+
+/* Task Area → Task Add Area → Edit Add Task → Select Time Text */
+.sc-jtggT {
+    color: var(--faded_blue);
+}
+
+/* Task Area → Task Add Area → Edit Add Task → Select Time Text → Highlight */
+.dgJAbf {
+    background-color: var(--background-second);
+}
+
+/* Task Area → Task Add Area → Edit Add Task → Delete Button */
+.sc-LKuAh {
+    background-color: var(--gray);
+}
+
+/* Task Area → Task Add Area → Edit Add Task → Delete Button → Highlight */
+.lobZHb {
+    background-color: var(--background-second);
+}
+
+/* Task Area → Task Add Area → Edit Add Task → Add Task Button → Highlight */
+.duBXQE:hover {
+    background-color: var(--foreground-second);
+    border-color: var(--border);
+}
+
+/* Task Area → Task Add Area → Edit Add Task → Add Task Button → Disable */
+.duBXQE {
+    background-color: var(--foreground-second);
+    border-color: var(--border);
+}
+
+/* Task Area → Task Add Area → Edit Add Task → Add Task Button Text → Disable */
+.duBXQE .sc-kkGfuU {
+    color: var(--background-second);
+}
+
 /* Task Area → Task Add Area → Text */
 .sc-iGPElx {
     color: var(--link);
@@ -753,8 +895,9 @@ svg {
     box-shadow: var(--border) -1px -1px 0px 1px inset, var(--border) 1px 1px 0px 1px inset;
 }
 
+/* Task Area → Task List → Item → Content */
 .sc-tilXH {
-
+    border-color: var(--border);
 }
 
 /* Task Area → Task List → Item → Done Button */
@@ -766,6 +909,11 @@ svg {
     background-color: var(--neutral_blue);
 }
 
+/* Task Area → Task List → Item → Text */
+.sc-ktHwxA {
+    color: var(--foreground);
+}
+
 /* Task Area → Task List → Item → Due Text */
 .sc-iELTvK {
     color: var(--foreground);
@@ -774,6 +922,11 @@ svg {
 /* Task Area → Task List → Item → Due Date */
 .sc-jwKygS {
     color: var(--neutral_red);
+}
+
+/* Task Area → Task List → Item → ToolTip */
+.sc-dfVpRl {
+    background-color: var(--background);
 }
 
 .dialogContainer {
@@ -995,4 +1148,33 @@ svg {
 .uploadFileDialog__messageTextarea {
     background-color: var(--background);
     border-color: var(--border);
+}
+
+/* Floating component container */
+.sc-iqzUVk {
+    border-color: var(--border);
+    background-color: var(--background-second);
+}
+
+/* Floating component container → Cell → Don't Set */
+.eBcHfl {
+    background-color: var(--faded_blue);
+    color: var(--foreground);
+    border-color: var(--border);
+}
+
+/* Floating component container → Cell → Don't Set → Highlight */
+.eBcHfl:hover {
+    background-color: var(--neutral_blue);
+}
+
+/* Floating component container → Cell */
+.RXCJL {
+    background-color: var(--background-second);
+    color: var(--foreground);
+    border-color: var(--border);
+}
+
+.RXCJL:hover {
+    background-color: var(--background);
 }
