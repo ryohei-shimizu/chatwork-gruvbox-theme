@@ -94,7 +94,7 @@ svg {
 /* Global Header → Search → Search Icon */
 .sc-hqyNC {
     background-color: var(--border);
-    border-color: #665c54;
+    border-color: var(--dark3);
 }
 
 .globalHeaderSearch .search input[type="text"] {
@@ -190,7 +190,7 @@ svg {
 }
 
 .sc-gipzik:hover {
-    background-color: #665c54;
+    background-color: var(--dark3);
 }
 
 .ewOSjQ {
@@ -198,7 +198,7 @@ svg {
 }
 
 ._unreadBadge {
-    background-color: #665c54;
+    background-color: var(--dark3);
 }
 
 /* サイドバー → ヘッダ → All Chats → ハイライト */
