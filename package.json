@@ -4,7 +4,7 @@
   "description": "Gruvbox Theme for Chatwork(used Web Extension API)",
   "main": "index.js",
   "scripts": {
-    "dev": "web-ext run --source-dir . --start-url https://kcw.kddi.ne.jp/#!rid28314697 --keep-profile-changes",
+    "dev": "web-ext run --source-dir . --start-url https://kcw.kddi.ne.jp --keep-profile-changes",
     "sign": "web-ext sign --api-key $FIREFOX_ADDON_KEY --api-secret $FIREFOX_ADDON_SECRET_KEY",
     "build": "web-ext build --overwrite-dest && npm run sign",
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -16,7 +16,7 @@
   },
   "author": "k.yamamoto@fenrir.co.jp",
   "license": "MIT",
-  "dependencies": {
+  "devDependencies": {
     "web-ext": "^3.0.0"
   }
 }
