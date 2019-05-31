@@ -365,7 +365,7 @@ svg {
 }
 
 .messageBadge .chatTimeLineReply__icon {
-    fill: #fbf1c7;
+    fill: var(--light0);
 }
 
 .messageBadge .chatTimeLineTo {
