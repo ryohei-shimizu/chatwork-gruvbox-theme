@@ -439,7 +439,7 @@ svg {
 }
 
 .timeLine__dateHeadText {
-    color: #d5c4a1;
+    color: var(--light2);
 }
 
 .chatInput {
