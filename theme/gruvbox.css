@@ -226,6 +226,11 @@ svg {
     background-color: var(--background-second);
 }
 
+/* サイドバー　→ チャットルーム → Pin Icon */
+.sc-bwzfXH {
+    fill: var(--faded_blue);
+}
+
 /* サイドバー → チャットルーム → 未読バッヂ */
 .sc-caSCKo {
     color: var(--foreground);
