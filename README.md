@@ -5,8 +5,14 @@ Gruvbox Theme for Chatwork(use Web Extension API)
 
 ### Firefox
 
-1. Open Preferences
-2. Select "Extensions & Themes"
-3. Select "Debug Add-ons" from gear icon
-4. Select "Load Temporary Add-on..."
-5. Select and load manifest.json
+#### Debug
+
+1. Open URL `about:debugging#addons`
+2. Select "Load Temporary Add-on..."
+3. Select and load manifest.json
+
+or
+
+1. cd path/to/chatwork-gruvbox
+2. npm install
+3. npm run dev
