@@ -355,6 +355,10 @@ svg {
     fill: var(--foreground);
 }
 
+.timelineMessage__editIcon {
+    fill: var(--foreground);
+}
+
 .timelineMessage__systemMessage {
     background-color: var(--background-second);
 }
@@ -702,6 +706,10 @@ svg {
 
 .roomDescription__inviteButtonIcon {
     color: var(--neutral_blue);
+}
+
+.roomDescription__editButtonIcon {
+    fill: var(--foreground);
 }
 
 .roomDescription__description:hover {
