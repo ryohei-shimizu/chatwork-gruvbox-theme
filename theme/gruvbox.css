@@ -632,7 +632,11 @@ svg {
     fill: var(--foreground);
 }
 
-._showDescription:hover {
+#_mainContentExpandLeft:hover {
+    background-color: var(--background-second);
+}
+
+#_mainContentExpandRight:hover {
     background-color: var(--background-second);
 }
 
