@@ -82,6 +82,10 @@ svg {
     fill: var(--foreground);
 }
 
+.loading {
+    background-color: var(--background);
+}
+
 .header {
     background-color: var(--background);
 }
