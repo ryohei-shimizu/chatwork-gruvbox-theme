@@ -71,7 +71,7 @@ input[type=text] {
 }
 
 html {
-    scrollbar-color: var(--background-second) #504945;
+    scrollbar-color: var(--background-second) var(--dark2);
 }
 
 a {
@@ -269,7 +269,7 @@ svg {
 }
 
 .chatRoomHeaderMemberList__detail {
-    background-color: #504945;
+    background-color: var(--dark2);
 }
 
 .chatRoomHeaderMemberList__detail:hover {
@@ -291,7 +291,7 @@ svg {
 }
 
 .timelineMessage {
-    border-color: #504945;
+    border-color: var(--dark2);
     background-color: var(--background);
 }
 
@@ -734,7 +734,7 @@ svg {
 
 /* Task Area → Task List → Item → Done Button */
 .sc-hSdWYo {
-    background-color: #504945;
+    background-color: var(--dark2);
 }
 
 .sc-hSdWYo:hover {
@@ -909,7 +909,7 @@ svg {
 }
 
 .datePicker__calendarDate:hover {
-    background-color: #504945;
+    background-color: var(--dark2);
 }
 
 .datePicker__calendarDate--otherMonth {
