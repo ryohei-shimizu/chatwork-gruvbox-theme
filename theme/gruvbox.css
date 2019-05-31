@@ -133,6 +133,10 @@ svg {
     background-color: var(--background);
 }
 
+.roomList {
+    background-color: var(--background);
+}
+
 .roomListItem__roomName {
     color: var(--foreground);
 }
