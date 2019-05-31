@@ -1,27 +1,55 @@
 :root {
-    --red: #cc241d;
-    --light-red: #fb4934;
-    --green: #98971a;
-    --light-green: #b8bb26;
-    --yellow: #d79921;
-    --light-yellow: #fabd2f;
-    --blue: #458588;
-    --light-blue: #83a598;
-    --purple: #b16286;
-    --light-purple: #d3869b;
-    --aqua: #689d6a;
-    --light-aqua: #8ec07c;
-    --gray: #928374;
+    --dark0_hard : #1d2021;
+    --dark0      : #282828;
+    --dark0_soft : #32302f;
+    --dark1      : #3c3836;
+    --dark2      : #504945;
+    --dark3      : #665c54;
+    --dark4      : #7c6f64;
+    --dark4_256  : #7c6f64;
 
-    --orange: #d65d0e;
-    --light-orange: #fe8019;
+    --gray_245   : #928374;
+    --gray_244   : #928374;
 
-    --background: #32302f;
-    --background-second: #3c3836;
-    --foreground: #ebdbb2;
-    --foreground-second: #bdae93;
-    --link: var(--blue);
-    --border: #7c6f64;
+    --light0_hard: #f9f5d7;
+    --light0     : #fbf1c7;
+    --light0_soft: #f2e5bc;
+    --light1     : #ebdbb2;
+    --light2     : #d5c4a1;
+    --light3     : #bdae93;
+    --light4     : #a89984;
+    --light4_256 : #a89984;
+
+    --bright_red    : #fb4934;
+    --bright_green  : #b8bb26;
+    --bright_yellow : #fabd2f;
+    --bright_blue   : #83a598;
+    --bright_purple : #d3869b;
+    --bright_aqua   : #8ec07c;
+    --bright_orange : #fe8019;
+
+    --neutral_red   : #cc241d;
+    --neutral_green : #98971a;
+    --neutral_yellow: #d79921;
+    --neutral_blue  : #458588;
+    --neutral_purple: #b16286;
+    --neutral_aqua  : #689d6a;
+    --neutral_orange: #d65d0e;
+
+    --faded_red     : #9d0006;
+    --faded_green   : #79740e;
+    --faded_yellow  : #b57614;
+    --faded_blue    : #076678;
+    --faded_purple  : #8f3f71;
+    --faded_aqua    : #427b58;
+    --faded_orange  : #af3a03;
+
+    --background: var(--dark0_soft);
+    --background-second: var(--dark1);
+    --foreground: var(--light1);
+    --foreground-second: var(--light3);
+    --link: var(--neutral_blue);
+    --border: var(--dark4);
 }
 
 html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, menu, nav, section, summary, time, mark, audio, video {
@@ -43,7 +71,7 @@ input[type=text] {
 }
 
 html {
-    scrollbar-color: var(--background-second) #504945;
+    scrollbar-color: var(--background-second) var(--dark2);
 }
 
 a {
@@ -66,7 +94,7 @@ svg {
 /* Global Header → Search → Search Icon */
 .sc-hqyNC {
     background-color: var(--border);
-    border-color: #665c54;
+    border-color: var(--dark3);
 }
 
 .globalHeaderSearch .search input[type="text"] {
@@ -162,7 +190,7 @@ svg {
 }
 
 .sc-gipzik:hover {
-    background-color: #665c54;
+    background-color: var(--dark3);
 }
 
 .ewOSjQ {
@@ -170,7 +198,7 @@ svg {
 }
 
 ._unreadBadge {
-    background-color: #665c54;
+    background-color: var(--dark3);
 }
 
 /* サイドバー → ヘッダ → All Chats → ハイライト */
@@ -218,7 +246,7 @@ svg {
 
 /* サイドバー → フッタ → Show More */
 .sc-hSdWYo {
-    background-color: var(--gray);
+    background-color: var(--gray_244);
     border-color: var(--background-second);
 }
 
@@ -241,7 +269,7 @@ svg {
 }
 
 .chatRoomHeaderMemberList__detail {
-    background-color: #504945;
+    background-color: var(--dark2);
 }
 
 .chatRoomHeaderMemberList__detail:hover {
@@ -263,7 +291,7 @@ svg {
 }
 
 .timelineMessage {
-    border-color: #504945;
+    border-color: var(--dark2);
     background-color: var(--background);
 }
 
@@ -280,7 +308,7 @@ svg {
 }
 
 .timelineMessage--mention {
-    background-color: var(--light-aqua);
+    background-color: var(--bright_aqua);
     color: var(--background-second);
 }
 
@@ -294,7 +322,7 @@ svg {
 }
 
 .timelineMessage--mention.chatTimeLineMessageHover {
-    background-color: var(--aqua);
+    background-color: var(--neutral_aqua);
 }
 
 .timelineMessage--mention .timelineMessage__message {
@@ -302,11 +330,11 @@ svg {
 }
 
 .timelineMessage--editing {
-    background-color: var(--light-blue);
+    background-color: var(--bright_blue);
 }
 
 .timelineMessage__editLabel {
-    background-color: var(--blue);
+    background-color: var(--neutral_blue);
     color: var(--foreground);
 }
 
@@ -324,7 +352,7 @@ svg {
 }
 
 .timelineMessage--mention .actionNav {
-    background-color: var(--orange);
+    background-color: var(--neutral_orange);
     border-color: var(--border);
 }
 
@@ -333,19 +361,19 @@ svg {
 }
 
 .messageBadge .chatTimeLineReply {
-    background-color: var(--orange);
+    background-color: var(--neutral_orange);
 }
 
 .messageBadge .chatTimeLineReply__icon {
-    fill: #fbf1c7;
+    fill: var(--light0);
 }
 
 .messageBadge .chatTimeLineTo {
-    background-color: var(--orange);
+    background-color: var(--neutral_orange);
 }
 
 .messageBadge__toAllBadge {
-    background-color: var(--orange);
+    background-color: var(--neutral_orange);
 }
 
 .linkStatus {
@@ -386,12 +414,12 @@ svg {
     color: var(--foreground);
 }
 .timelineLinkAppend {
-    background-color: var(--light-aqua);
+    background-color: var(--bright_aqua);
     color: var(--link);
 }
 
 .timeLine__unreadLineBorder {
-    background-color: var(--red);
+    background-color: var(--neutral_red);
 }
 
 .timeLine__unreadLineBody {
@@ -399,7 +427,7 @@ svg {
 }
 
 .timeLine__unreadLineText {
-    color: var(--red);
+    color: var(--neutral_red);
 }
 
 .timeLine__dateHead {
@@ -411,7 +439,7 @@ svg {
 }
 
 .timeLine__dateHeadText {
-    color: #d5c4a1;
+    color: var(--light2);
 }
 
 .chatInput {
@@ -419,12 +447,12 @@ svg {
 }
 
 .chatInput__submit {
-    background-color: var(--blue);
+    background-color: var(--neutral_blue);
     color: var(--foreground);
 }
 
 .chatInput__submit:hover {
-    background-color: var(--light-blue);
+    background-color: var(--bright_blue);
     color: var(--border);
     border-color: var(--border);
 }
@@ -470,11 +498,11 @@ svg {
 }
 
 .selectboxContent .selectboxSelected {
-    background-color: var(--blue);
+    background-color: var(--neutral_blue);
 }
 
 .selectboxContent .selectboxSelected:hover {
-    background-color: var(--blue);
+    background-color: var(--neutral_blue);
 }
 
 .selectboxContent li:hover {
@@ -537,7 +565,7 @@ svg {
 
 ._cwBBSelected.selected {
     background-color: var(--background);
-    color: var(--blue);
+    color: var(--neutral_blue);
     border-color: var(--border)
 }
 
@@ -546,7 +574,7 @@ svg {
 }
 
 .taskMine {
-    background-color: var(--aqua);
+    background-color: var(--neutral_aqua);
 }
 
 .taskDateLimit {
@@ -605,7 +633,7 @@ svg {
 }
 
 .chatInput__editContainer {
-    background-color: var(--blue);
+    background-color: var(--neutral_blue);
     color: var(--foreground);
 }
 
@@ -644,19 +672,19 @@ svg {
 }
 
 .roomDescription__inviteButton {
-    background-color: var(--light-aqua);
-    color: var(--blue);
-    border-color: var(--light-blue);
+    background-color: var(--bright_aqua);
+    color: var(--neutral_blue);
+    border-color: var(--bright_blue);
 }
 
 .roomDescription__inviteButton:hover {
-    background-color: var(--aqua);
+    background-color: var(--neutral_aqua);
     color: var(--foreground);
-    border-color: var(--light-blue);
+    border-color: var(--bright_blue);
 }
 
 .roomDescription__inviteButtonIcon {
-    color: var(--blue);
+    color: var(--neutral_blue);
 }
 
 .roomDescription__description:hover {
@@ -706,11 +734,11 @@ svg {
 
 /* Task Area → Task List → Item → Done Button */
 .sc-hSdWYo {
-    background-color: #504945;
+    background-color: var(--dark2);
 }
 
 .sc-hSdWYo:hover {
-    background-color: var(--blue);
+    background-color: var(--neutral_blue);
 }
 
 /* Task Area → Task List → Item → Due Text */
@@ -720,7 +748,7 @@ svg {
 
 /* Task Area → Task List → Item → Due Date */
 .sc-jwKygS {
-    color: var(--red);
+    color: var(--neutral_red);
 }
 
 .dialogContainer {
@@ -758,18 +786,18 @@ svg {
 }
 
 .btnDanger {
-    background-color: var(--red);
+    background-color: var(--neutral_red);
     color: var(--foreground);
 }
 
 .btnPrimary {
-    background-color: var(--blue);
+    background-color: var(--neutral_blue);
     color: var(--foreground);
     border-color: var(--border);
 }
 
 .btnPrimary:hover {
-    background-color: var(--light-blue);
+    background-color: var(--bright_blue);
     color: var(--foreground);
     border-color: var(--border);
 }
@@ -802,7 +830,7 @@ svg {
 }
 
 .search.focus {
-    border-color: var(--blue);
+    border-color: var(--neutral_blue);
 }
 
 .toSelectorTooltip__checkAll {
@@ -810,7 +838,7 @@ svg {
 }
 
 .toSelectorTooltip__toAllIconContainer {
-    background-color: var(--green);
+    background-color: var(--neutral_green);
 }
 
 .toSelectorTooltip__toAllIcon {
@@ -881,7 +909,7 @@ svg {
 }
 
 .datePicker__calendarDate:hover {
-    background-color: #504945;
+    background-color: var(--dark2);
 }
 
 .datePicker__calendarDate--otherMonth {
@@ -894,7 +922,7 @@ svg {
 }
 
 .datePicker__selectTodayButton {
-    background-color: var(--blue);
+    background-color: var(--neutral_blue);
     color: var(--foreground);
     border-color: var(--border);
 }
