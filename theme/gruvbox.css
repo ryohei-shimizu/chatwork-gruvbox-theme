@@ -299,7 +299,7 @@ svg {
 }
 
 .timeLine {
-    box-shadow: var(--border) -1px -1px 0px 1px inset, var(--border) 1px 1px 0px 1px inset; 
+    box-shadow: var(--border) -1px -1px 0px 1px inset, var(--border) 1px 1px 0px 1px inset;
     border: none;
 }
 
@@ -750,7 +750,7 @@ svg {
 /* Task Area → Task Add Area → Highlighted */
 .egxNow {
     border-color: var(--border);
-    box-shadow: var(--border) -1px -1px 0px 1px inset, var(--border) 1px 1px 0px 1px inset; 
+    box-shadow: var(--border) -1px -1px 0px 1px inset, var(--border) 1px 1px 0px 1px inset;
 }
 
 /* Task Area → Task Add Area → Edit Add Task → Header */
