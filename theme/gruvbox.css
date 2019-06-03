@@ -50,6 +50,7 @@
     --foreground-second: var(--light3);
     --link: var(--neutral_blue);
     --border: var(--dark4);
+    --mention: var(--neutral_aqua);
 }
 
 html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, menu, nav, section, summary, time, mark, audio, video {
@@ -321,7 +322,7 @@ svg {
 }
 
 .timelineMessage--mention {
-    background-color: var(--bright_aqua);
+    background-color: var(--mention);
     color: var(--background-second);
 }
 
@@ -335,7 +336,7 @@ svg {
 }
 
 .timelineMessage--mention.chatTimeLineMessageHover {
-    background-color: var(--neutral_aqua);
+    background-color: var(--mention);
 }
 
 .timelineMessage--mention .timelineMessage__message {
@@ -369,7 +370,7 @@ svg {
 }
 
 .timelineMessage--mention .actionNav {
-    background-color: var(--neutral_aqua);
+    background-color: var(--mention);
     border-color: var(--border);
 }
 
