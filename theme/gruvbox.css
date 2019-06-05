@@ -369,7 +369,7 @@ svg {
 }
 
 .timelineMessage--mention .actionNav {
-    background-color: var(--neutral_orange);
+    background-color: var(--neutral_aqua);
     border-color: var(--border);
 }
 
