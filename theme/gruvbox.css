@@ -378,23 +378,27 @@ svg {
 }
 
 .messageBadge .messageBadge__avatar {
-    border-color: var(--link);
+    background-color: var(--background);
 }
 
-.messageBadge .chatTimeLineReply {
+.messageBadge .chatTimeLineTo,
+.messageBadge .chatTimeLineReply,
+.messageBadge__toAllBadge {
     background-color: var(--link);
 }
 
-.messageBadge .chatTimeLineReply__icon {
+.messageBadge .chatTimeLineTo__icon,
+.messageBadge .chatTimeLineReply__icon,
+.messageBadge__toAllBadgeIcon {
     fill: var(--light0);
 }
 
-.messageBadge .chatTimeLineTo {
-    background-color: var(--link);
+.messageBadge:hover .chatTimeLineReply {
+    background-color: var(--bright_orange);
 }
 
-.messageBadge__toAllBadge {
-    background-color: var(--link);
+.messageBadge:hover .chatTimeLineReply + .messageBadge__avatar {
+    border-color: var(--bright_orange);
 }
 
 .linkStatus {
