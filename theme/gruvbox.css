@@ -369,12 +369,16 @@ svg {
 }
 
 .timelineMessage--mention .actionNav {
-    background-color: var(--neutral_orange);
+    background-color: var(--neutral_aqua);
     border-color: var(--border);
 }
 
 .actionNav__itemIcon {
     fill: var(--foreground);
+}
+
+.messageBadge .messageBadge__avatar {
+    border-color: var(--neutral_orange)
 }
 
 .messageBadge .chatTimeLineReply {
