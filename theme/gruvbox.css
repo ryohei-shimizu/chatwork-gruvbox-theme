@@ -378,7 +378,7 @@ svg {
 }
 
 .messageBadge .messageBadge__avatar {
-    border-color: var(--link)
+    border-color: var(--link);
 }
 
 .messageBadge .chatTimeLineReply {
@@ -591,19 +591,19 @@ svg {
 ._cwBBButton {
     background-color: var(--background-second);
     color: var(--foreground);
-    border-color: var(--border)
+    border-color: var(--border);
 }
 
 ._cwBBButton:hover {
     background-color: var(--background);
     color: var(--foreground);
-    border-color: var(--border)
+    border-color: var(--border);
 }
 
 ._cwBBSelected.selected {
     background-color: var(--background);
     color: var(--neutral_blue);
-    border-color: var(--border)
+    border-color: var(--border);
 }
 
 .messageSearchExpand__searchExpandButtonIcon {
@@ -710,7 +710,7 @@ svg {
 }
 
 .roomDescription__headerText {
-    color: var(--foreground)
+    color: var(--foreground);
 }
 
 .roomDescription__inviteButton {
@@ -1076,13 +1076,13 @@ svg {
 .quoteTooltip__toTask:hover {
     background-color: var(--background);
     color: var(--foreground-second);
-    border-color: var(--border)
+    border-color: var(--border);
 }
 
 .quoteTooltip__toMessage:hover {
     background-color: var(--background);
     color: var(--foreground-second);
-    border-color: var(--border)
+    border-color: var(--border);
 }
 
 .moreActionTooltip__item:hover {
