@@ -377,6 +377,10 @@ svg {
     fill: var(--foreground);
 }
 
+.messageBadge .messageBadge__avatar {
+    border-color: var(--neutral_orange)
+}
+
 .messageBadge .chatTimeLineReply {
     background-color: var(--neutral_orange);
 }
