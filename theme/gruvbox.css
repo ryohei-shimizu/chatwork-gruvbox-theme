@@ -49,6 +49,7 @@
     --foreground: var(--light1);
     --foreground-second: var(--light3);
     --link: var(--neutral_aqua);
+    --link-second: var(--bright_aqua);
     --border: var(--dark4);
 }
 
@@ -378,23 +379,27 @@ svg {
 }
 
 .messageBadge .messageBadge__avatar {
-    border-color: var(--link);
+    background-color: var(--background);
 }
 
-.messageBadge .chatTimeLineReply {
+.messageBadge .chatTimeLineTo,
+.messageBadge .chatTimeLineReply,
+.messageBadge__toAllBadge {
     background-color: var(--link);
 }
 
-.messageBadge .chatTimeLineReply__icon {
+.messageBadge .chatTimeLineTo__icon,
+.messageBadge .chatTimeLineReply__icon,
+.messageBadge__toAllBadgeIcon {
     fill: var(--light0);
 }
 
-.messageBadge .chatTimeLineTo {
-    background-color: var(--link);
+.messageBadge:hover .chatTimeLineReply {
+    background-color: var(--link-second);
 }
 
-.messageBadge__toAllBadge {
-    background-color: var(--link);
+.messageBadge:hover .chatTimeLineReply + .messageBadge__avatar {
+    border-color: var(--link-second);
 }
 
 .linkStatus {
