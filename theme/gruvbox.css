@@ -294,6 +294,10 @@ svg {
     color: var(--foreground);
 }
 
+.memberListLabel {
+    color: var(--foreground)
+}
+
 .roomContent {
     background-color: var(--background);
     border-color: var(--border);
