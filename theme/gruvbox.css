@@ -710,6 +710,7 @@ svg {
     background: var(--background);
 }
 
+.roomInfo__textInputDescription,
 .roomInformationContent {
     background-color: var(--background);
 }
