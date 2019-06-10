@@ -714,6 +714,7 @@ svg {
     background-color: var(--background);
 }
 
+.roomDescEditDialog__form,
 .roomDescription__header {
     background-color: var(--background);
 }
