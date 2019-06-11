@@ -1017,6 +1017,7 @@ svg {
     border-color: var(--border);
 }
 
+.tooltip > ul li.tooltipListHover,
 .tooltipList__item:hover {
     background-color: var(--background);
 }
