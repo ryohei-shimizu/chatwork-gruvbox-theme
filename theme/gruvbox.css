@@ -294,6 +294,14 @@ svg {
     color: var(--foreground);
 }
 
+.chatRoomSettingDialog__headerTab li {
+    background-color: var(--background);
+}
+
+.chatRoomSettingDialog__headerTab li:hover {
+    background-color: var(--background-second);
+}
+
 .memberListLabel {
     color: var(--foreground)
 }
