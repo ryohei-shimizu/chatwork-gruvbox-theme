@@ -104,9 +104,6 @@ svg {
 
 .globalHeaderSearch .search input[type="text"] {
     background-color: var(--background-second);
-}
-
-.globalHeaderSearch .search input[type="text"] {
     color: var(--foreground);
 }
 
