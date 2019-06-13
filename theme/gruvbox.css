@@ -791,6 +791,8 @@ svg {
     color: var(--foreground);
 }
 
+/* Task Area → Task Add Area → Edit Add Task → Select Time Text */
+.sc-jtggT,
 /* Task Area → Task Add Area → Edit Add Task → To → Assign to Text */
 .sc-eLExRp {
     color: var(--faded_blue);
@@ -873,11 +875,6 @@ svg {
 
 .sc-cqCuEk:hover {
     background-color: var(--background-second);
-}
-
-/* Task Area → Task Add Area → Edit Add Task → Select Time Text */
-.sc-jtggT {
-    color: var(--faded_blue);
 }
 
 /* Task Area → Task Add Area → Edit Add Task → Select Time Text → Highlight */
