@@ -393,14 +393,13 @@ svg {
 }
 
 .messageBadge .messageBadge__avatar {
-    background-color: var(--background);
-    border-color: var(--link);
+    border-color: var(--neutral_aqua);
 }
 
 .messageBadge .chatTimeLineTo,
 .messageBadge .chatTimeLineReply,
 .messageBadge__toAllBadge {
-    background-color: var(--link);
+    background-color: var(--neutral_aqua);
 }
 
 .messageBadge .chatTimeLineTo__icon,
@@ -410,11 +409,11 @@ svg {
 }
 
 .messageBadge:hover .chatTimeLineReply {
-    background-color: var(--link-second);
+    background-color: var(--bright_aqua);
 }
 
 .messageBadge:hover .chatTimeLineReply + .messageBadge__avatar {
-    border-color: var(--link-second);
+    border-color: var(--bright_aqua);
 }
 
 .linkStatus {
