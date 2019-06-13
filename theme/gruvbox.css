@@ -271,10 +271,7 @@ svg {
     border-color: var(--border);
 }
 
-.chatRoomHeader__fileListButtonIcon {
-    fill: var(--foreground);
-}
-
+.chatRoomHeader__fileListButtonIcon,
 .chatRoomHeader__settingButtonIcon {
     fill: var(--foreground);
 }
