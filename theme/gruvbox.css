@@ -394,6 +394,7 @@ svg {
 
 .messageBadge .messageBadge__avatar {
     background-color: var(--background);
+    border-color: var(--link);
 }
 
 .messageBadge .chatTimeLineTo,
