@@ -321,10 +321,7 @@ svg {
     color: var(--link);
 }
 
-.timelineMessage__orgName {
-    color: var(--foreground-second);
-}
-
+.timelineMessage__orgName,
 .timelineMessage__timeStamp {
     color: var(--foreground-second);
 }
