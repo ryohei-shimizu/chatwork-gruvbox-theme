@@ -104,9 +104,6 @@ svg {
 
 .globalHeaderSearch .search input[type="text"] {
     background-color: var(--background-second);
-}
-
-.globalHeaderSearch .search input[type="text"] {
     color: var(--foreground);
 }
 
@@ -274,10 +271,7 @@ svg {
     border-color: var(--border);
 }
 
-.chatRoomHeader__fileListButtonIcon {
-    fill: var(--foreground);
-}
-
+.chatRoomHeader__fileListButtonIcon,
 .chatRoomHeader__settingButtonIcon {
     fill: var(--foreground);
 }
@@ -327,10 +321,7 @@ svg {
     color: var(--link);
 }
 
-.timelineMessage__orgName {
-    color: var(--foreground-second);
-}
-
+.timelineMessage__orgName,
 .timelineMessage__timeStamp {
     color: var(--foreground-second);
 }
@@ -797,6 +788,8 @@ svg {
     color: var(--foreground);
 }
 
+/* Task Area → Task Add Area → Edit Add Task → Select Time Text */
+.sc-jtggT,
 /* Task Area → Task Add Area → Edit Add Task → To → Assign to Text */
 .sc-eLExRp {
     color: var(--faded_blue);
@@ -879,11 +872,6 @@ svg {
 
 .sc-cqCuEk:hover {
     background-color: var(--background-second);
-}
-
-/* Task Area → Task Add Area → Edit Add Task → Select Time Text */
-.sc-jtggT {
-    color: var(--faded_blue);
 }
 
 /* Task Area → Task Add Area → Edit Add Task → Select Time Text → Highlight */
